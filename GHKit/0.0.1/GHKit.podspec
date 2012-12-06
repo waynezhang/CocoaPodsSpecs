@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/gabriel/gh-kit.git", :commit => "6da38c69fd2f49d8626dc2f8c1906b6e10e1e351" }
-  s.source_files = 'Classes/*.{h,m}', 'Classes/MAZeroingWeakRef/**/*.{h,m}', 'Classes/Swizzle/**/*.{h,m}', 'Classes/iOS/**/*.{h,m}'
+  s.source_files = 'Classes/*.{h,m,c}', 'Classes/MAZeroingWeakRef/**/*.{h,m}', 'Classes/Swizzle/**/*.{h,m}', 'Classes/iOS/**/*.{h,m}'
 end
