@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/tombenner/nui.git", :commit => "20ef56599dadf7c52229183f50f3cfc95ea01db7" }
   s.source_files = 'NUI/**/*.{h,m,c}'
-  s.resources    = 'NUI/**/*.{plist,png}'
+  s.resources    = 'NUI/**/*.{nss,png}'
   s.frameworks   = 'CoreImage', 'QuartzCore'
 end
