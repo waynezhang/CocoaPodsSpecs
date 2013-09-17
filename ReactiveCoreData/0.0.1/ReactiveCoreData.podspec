@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/apparentsoft/ReactiveCoreData.git", :commit => "faddd8a33d4fec5f220ec55ece74afdec6316ddf"}
   s.platform     = :ios, 5.0
   s.source_files = 'ReactiveCoreData/*.{h,m}'
-  s.dependency 'ReactiveCocoa', '~> 1.9.7'
+  s.dependency 'ReactiveCocoa', '> 1.9.7'
 end
